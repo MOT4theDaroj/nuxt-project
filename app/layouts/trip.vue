@@ -1,15 +1,12 @@
 <template>
     <div>
-        <h1>TRIP</h1>
+        <h1 class="font-bold">TRIP LAYOUT</h1>
+        <slot />
     </div>
 </template>
 
 <script setup lang="ts">
-    definePageMeta(
-        {
-            layout : 'trip'
-        }
-    )
+
 </script>
 
 <style scoped>
