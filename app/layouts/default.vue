@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div>
         <h1 class="text-2xl font-bold">My Layout</h1>
         <slot />
@@ -12,4 +12,4 @@
 
 <style scoped>
 
-</style>
+</style> -->

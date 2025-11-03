@@ -32,8 +32,12 @@
     function login(){
         console.log("ID : " + ID.value);
         console.log("PASS : " + PASS.value);
-        if(ID.value === realId && PASS.value === realPass){
+        if(ID.value == realId && PASS.value == realPass){
             text.value = "login success"
+            navigateTo({
+                path:'/trip',
+                query: {email : ID.value}
+            })
         }else{
              text.value = "login fail"
         }

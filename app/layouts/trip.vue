@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div>
         <h1 class="font-bold">TRIP LAYOUT</h1>
         <slot />
@@ -11,4 +11,4 @@
 
 <style scoped>
 
-</style>
+</style> -->
